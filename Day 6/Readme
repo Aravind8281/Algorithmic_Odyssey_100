@@ -1,0 +1,7 @@
+String Buffer offers Mutable String Manipulation
+append() - Concatenate Strings
+insert() - Insert String at Specific index
+delete(start,end) - Delete elements from start to end
+reverse() - Reverse a given String
+capacity() - capacity of string
+replace(start,end,string) - Replace a string 
