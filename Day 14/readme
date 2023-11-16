@@ -1,0 +1,9 @@
+Basic Hashmap manipulation !!!
+
+put(key,value) - insert element
+get(key) - get element
+remove(key) - remove key element
+containsKey(key) - Checks whether key present or not
+containsValue(value) - checks whether value present or not
+clear() - remove all values in hashmap
+size() - returns size of hashmap
