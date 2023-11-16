@@ -1,5 +1,7 @@
 Basic Hashmap manipulation !!!
 
+1) HashMap :
+
 put(key,value) - insert element
 
 get(key) - get element
@@ -13,3 +15,17 @@ containsValue(value) - checks whether value present or not
 clear() - remove all values in hashmap
 
 size() - returns size of hashmap
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2)Hashset Unique Values :
+
+set.add() - add elements
+
+set.remove() - remove elements
+
+set.contains() - return true if exists
+
+set.size() - return size of elements
+
+set.isEmpty() - checks whether Hashset empty or not
