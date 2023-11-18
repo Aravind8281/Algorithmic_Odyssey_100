@@ -1,1 +1,16 @@
-<b>Stack Manipulation !!!<\b>
+Stack Manipulation !!!
+
+<h1>push() - to insert element
+
+pop() - to remove top element and return its value
+
+peek() - return top element
+
+size() - return size of the stack
+
+isEmpty() - check whether Stack empty or not
+
+Search() - to search an element
+
+elementAt(index) - return element at particular index
+</h1>
