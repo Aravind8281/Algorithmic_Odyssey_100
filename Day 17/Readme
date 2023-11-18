@@ -1,6 +1,6 @@
 Stack Manipulation !!!
 
-<h1>push() - to insert element
+push() - to insert element
 
 pop() - to remove top element and return its value
 
@@ -13,4 +13,3 @@ isEmpty() - check whether Stack empty or not
 Search() - to search an element
 
 elementAt(index) - return element at particular index
-</h1>
