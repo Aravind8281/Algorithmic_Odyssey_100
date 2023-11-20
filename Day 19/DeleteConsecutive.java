@@ -6,7 +6,7 @@ public class Main {
         for(String comp:arr){
             if(!stack.isEmpty() && stack.peek().equals(comp)){
                 stack.pop();
-            }
+            } 
             else
                 stack.push(comp);
         }
