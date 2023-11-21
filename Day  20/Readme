@@ -1,5 +1,11 @@
 Queue Implementation Java !!!
 
+Types:
+
+Queue
+Double Ended Queue
+Priority Queue
+
 add(element) - add element to rear of the queue and return error if queue is full
 offer(element) - add element to rear of the queue and return false if queue is full
 poll() - remove the element in front of queue and return false if queue is empty
@@ -10,3 +16,14 @@ clear() - empty the queue
 remove(index) - element in specific index
 get(index) - get element in specific index
 contains(element) - check whether queue consists element
+
+
+Double Ended Queue
+
+offerFirst(element)
+offerLast(element)
+pollLast()
+pollFirst()
+peekFirst()
+peekLast()
+
