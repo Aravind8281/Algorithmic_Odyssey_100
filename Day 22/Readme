@@ -1,4 +1,7 @@
 Linked List Implementation !!
 
-Basic Linkedlist implementation without LL class
-Basic Manipulations
+A linked list is a dynamic data structure consisting of nodes, each containing data and a reference to the next node. 
+It offers efficient insertions and deletions, as elements are not required to be stored in contiguous memory. 
+The singly linked list traverses forward, while doubly linked lists allow bidirectional movement.It is used in scenarios with frequent data modifications, 
+such as task scheduling or real-time data streaming. Linked lists are foundational in implementing data structures like stacks, queues, and symbol tables. However, 
+they have higher memory overhead compared to arrays due to storing additional pointers.
