@@ -4,7 +4,7 @@ public class Main {
     private static int length = 0;
 
     static class Listnode {
-        private int data;
+        private int data; 
         private Listnode next;
 
         public Listnode(int data) {
