@@ -24,7 +24,7 @@ public class Graph {
         graph.E++;
     }
 
-    static boolean DetectCycle(int size, LinkedList<Integer>[] adjMatrix) {
+    static boolean DetectCycle(int size) {
         int[] vis = new int[size];
         Queue<Pair<Integer, Integer>> q = new LinkedList<>();
         for (int i = 0; i < size; i++) {
@@ -34,7 +34,7 @@ public class Graph {
                     int r = q.peek().first;
                     int c = q.peek().second;
                     q.poll();
-                    for (int adjacent : adjMatrix[r]) {
+                    for (int adjacent : graph.adjMatrix[r]) {
                         if (vis[adjacent] == 0) {
                             vis[adjacent] = 1;
                             q.offer(new Pair<>(adjacent, r));
@@ -48,18 +48,13 @@ public class Graph {
         return false;
     }
 
-    static boolean iscycle(int V, LinkedList<Integer>[] adj) {
-        int[] vis = new int[V];
-        return DetectCycle(V, adj);
-    }
-
     public static void main(String[] args) {
         graph = new GraphNode(5);
         addEdge(0, 1);
         addEdge(1, 2);
         addEdge(2, 3);
         addEdge(3, 4);
-        System.out.print(iscycle(graph.V, graph.adjMatrix));
+        System.out.print(DetectCycle(5));
     }
 
     private static class Pair<A, B> {
