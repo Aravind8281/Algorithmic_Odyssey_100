@@ -1,5 +1,5 @@
 ## Trie Data Structure Implementation
 
-> Custom Trie Implementation
-> Basic Trie Operations 
-> Basic Trie Manipulation
+* Custom Trie Implementation
+* Basic Trie Operations 
+* Basic Trie Manipulation
