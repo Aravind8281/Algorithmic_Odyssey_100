@@ -6,6 +6,6 @@ Note
 
 ## Complexity
 
-* worst case : O(n/2)
-* average case : O(n/2)
+* worst case : O(log(n))
+* average case : O(log(n))
 * best case : O(1)
