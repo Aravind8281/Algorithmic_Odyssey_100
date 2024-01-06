@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class Main { 
     static int fibTabulation(int n) {
         int[] arr = new int[n + 1];
         Arrays.fill(arr, 0);
