@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class Main {
     static int coinChange(int[] coins, int amount) {
         if (coins.length == 0) {
-            return -1;
+            return -1; 
         }
         int n = coins.length;
         int[][] dp = new int[n + 1][amount + 1];
