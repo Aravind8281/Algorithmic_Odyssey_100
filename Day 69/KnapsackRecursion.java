@@ -1,16 +1,19 @@
 import java.util.*;
 public class Main{
     static int knapsack(int[] weight,int[] profit,int maxweight,int n){
+        //base condition
         if(n==0||maxweight==0){
             return 0;
         }
+        //skip where maxweight is lesser then current weight
         if(weight[n]>maxweight){
             return knapsack(weight,profit,maxweight,n-1);
         }
+        // return max value between exclude and include value
         else{
             return Math.max(
-            profit[n]+knapsack(weight,profit,maxweight-weight[n],n-1),
-            knapsack(weight,profit,maxweight,n-1)
+            profit[n]+knapsack(weight,profit,maxweight-weight[n],n-1),//include case subtract weight of current item w[n] - maxweight
+            knapsack(weight,profit,maxweight,n-1)//exclude case 
             );
         }
     }
