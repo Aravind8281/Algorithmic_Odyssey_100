@@ -23,3 +23,7 @@
 
 8. **Group Knapsack Problem:**
    - Items are grouped into sets, and you must select entire sets rather than individual items. Each group has its own weight and value, and the goal is to maximize the total value while staying within the weight constraint.
+
+**Time Complexity : O(nW)**
+**Space Complexity : O(nW)**
+#
