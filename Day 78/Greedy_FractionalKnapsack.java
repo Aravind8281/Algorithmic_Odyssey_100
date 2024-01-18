@@ -8,7 +8,7 @@ public class FractionalKnapsack {
         for (int i = 0; i < n; i++) {
             items[i][0] = weights[i];
             items[i][1] = values[i];
-            items[i][2] = (double) values[i] / weights[i]; // Value per unit weight
+            items[i][2] = (double) values[i] / weights[i]; 
         } 
         Arrays.sort(items, Comparator.comparingDouble(item -> item[2]).reversed());
 
