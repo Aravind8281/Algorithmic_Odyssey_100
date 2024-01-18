@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
- 
 public class MergeIntervals {
     public static int[][] merge(int[][] intervals) {
         if (intervals.length <= 1) {
