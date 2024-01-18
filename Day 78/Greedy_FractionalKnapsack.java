@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Comparator;
-
+ 
 public class FractionalKnapsack {
     public static double getMaxValue(int[] weights, int[] values, int capacity) {
         int n = weights.length;
