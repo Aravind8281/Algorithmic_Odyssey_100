@@ -9,7 +9,7 @@ public class FractionalKnapsack {
             items[i][0] = weights[i];
             items[i][1] = values[i];
             items[i][2] = (double) values[i] / weights[i]; // Value per unit weight
-        }
+        } 
         Arrays.sort(items, Comparator.comparingDouble(item -> item[2]).reversed());
 
         double maxValue = 0;
