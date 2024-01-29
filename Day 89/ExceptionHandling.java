@@ -9,7 +9,7 @@ public class Main
     }
 	public static void main(String[] args) {
 		int a=10,b=0;
-	    try{
+	    try{ 
 	        System.out.print(div(a,b));
 	    }catch(Exception e){
 	        System.out.print(e.getMessage());
