@@ -4,7 +4,7 @@ public class Main
     static int div(int a,int b) throws ArithmeticException{
         if(b==0) {
             throw new ArithmeticException("not suitable");
-        }
+        } 
         return a/b;
     }
 	public static void main(String[] args) {
