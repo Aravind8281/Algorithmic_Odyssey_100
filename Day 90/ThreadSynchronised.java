@@ -1,3 +1,4 @@
+// Synchronised helps to ensure thread safety and maintain threads runs atomically
 class Counter {
     private int count = 0;
     public synchronized void increment() {
